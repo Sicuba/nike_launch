@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "nike":'url("/src/assets/bg.png")',
+      }
+    },
   },
   plugins: [],
 }
